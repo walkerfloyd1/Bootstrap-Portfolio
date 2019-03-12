@@ -1,0 +1,66 @@
+body {
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("https://blog.spoongraphics.co.uk/wp-content/uploads/2016/08/thumbnail.jpg");
+    color: #777777;
+}
+
+#about {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 20px;
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 100%;
+}
+navbar {
+    margin: 20px;
+    display: block;
+}
+
+#topnav {
+    position: static;
+}
+
+
+
+#navbarname {
+    padding: 5px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#footer {
+    margin-top: 20px;
+}
+
+
+img {
+    max-width: 200px;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    float: left;
+}
+
+p {
+    float: left;
+}
+
+.row {
+    padding: 20px;
+}
+
+#exampleMessage {
+    height: 400px;
+}
+
+@media only screen and (max-width: 640px) {
+    .jumbotron {
+        width: 120%;
+        margin: 0;
+    }
+}
+
+
